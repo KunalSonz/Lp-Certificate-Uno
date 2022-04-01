@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUTHENTICATED PAGE</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>JEWELLERY SHOP</h1>
+    <section>
+      <a href="index.html">Home</a>
+      <a href="indexA.html">Authenticated</a>
+    </section>
+  </nav>
+
+  <div id = "Fold1">
+    <div class="fold1a">
+      <div class="fold1b"> 
+        <img src="" alt="Some jwellery image">
+      </div>
+      <div class="fold1c">
+        <h1>Product1</h1>
+        <input id="btn1" onclick="sub()" type="button" value="-">
+        <h2 id="display">0</h2>
+        <input id="btn1" onclick="add()" type="button" value="+">
+      </div>
+      <div class="fold1d">
+        <input type="button" value="BUY" onclick="buy()">
+      </div>
+    </div>
+  </div>
+
+  <div id = "Fold2">
+    <h1>Cart</h1>
+    <div class="fold2a">
+      <h2>Cart Value:</h2>
+      <h2 id="cartValue"></h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</body>
+</html>

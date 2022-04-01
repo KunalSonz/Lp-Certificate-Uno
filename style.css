@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color: antiquewhite;
+  color: tomato;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+nav h1 {
+  font-size: 30px;
+}
+
+nav section {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav section a {
+  color: tomato;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+#Fold1 {
+  width: 100%;
+  height: 50vh;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fold1a {
+  width: 20%;
+  height: 40vh;
+  background-color: coral;
+}
+
+.fold1b {
+  width: 100%;
+  height: 20vh;
+  background-color: firebrick;
+  color: wheat;
+}
+
+.fold1c,
+.fold1d {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fold1c input {
+  width: 20px;
+  height: 40px;
+}
+
+.fold1c h2 {
+  width: 30px;
+  text-align: center;
+}
+
+.fold1d input {
+  width: 90px;
+  height: 30px;
+}
+
+#Fold2 {
+  width: 100%;
+  height: 40vh;
+  background-color: bisque;
+}
+
+.fold2a {
+  display: flex;
+}
